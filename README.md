@@ -6,7 +6,7 @@ The purpose of this project is to create a burger logger that allows the user to
 
 ## Functionality GIF
 
-<img src = 'assets/images/'>
+<img src = 'assets/images/burgerapp.png'>
 
 ## How It Works
 
