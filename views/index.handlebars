@@ -1,0 +1,41 @@
+<section id="burgerDisplay">
+  <img src="/assets/images/burger.png" alt="Burger" width="100px;">
+
+
+<div id="burgersDBdata">
+  <div>
+    <h3>Burgers Ordered</h3>
+    <div id="burgers">
+      {{#each orderedBurgers}}
+      <div>
+        <div>{{id}}. {{burger_name}}</div>
+        <button data-id="{{id}}">Devour it!!!</button>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+  <div >
+    <h3>Burgers Devoured</h3>
+    <div id="burgersDevoured">
+      {{#each devouredBurgers}}
+      <div>
+        <div>{{id}}. {{burger_name}}</div>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+</div>
+
+  <h1>Eat-The-Burger</h1>
+
+<form action="javascript:void(0);" id="usrform" method="POST">
+  <textarea rows="3" cols="50" name="burger" type="text" form="usrform" required maxlength="30"></textarea>
+  <button id="burgerSubmit" type="submit">Submit</button>
+  <p>Enter a burger order you want to eat, then click the submit button.</p>
+</form>
+
+<button id="burgerReset">Reset Orders</button>
+<p>To reset the orders from the page and database, click the Reset Orders button.</p>
+
+
+</section>
