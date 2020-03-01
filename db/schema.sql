@@ -1,6 +1,4 @@
 
-DROP DATABASE db_burger;
-
 CREATE DATABASE db_burger;
 
 USE db_burger;
