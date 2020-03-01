@@ -4,9 +4,9 @@
 
 The purpose of this project is to create a burger logger that allows the user to created/add burgers, devour the burgers, and delete the burgers. The burger logger will use MySQL, Node, Express, Handlebars and a homemade ORM following the MVC design pattern.
 
-## Functionality GIF
+## App Image
 
-<img src = 'assets/images/burgerapp.png'>
+<img src = 'public/assets/images/burgerapp.png'>
 
 ## How It Works
 
